@@ -7,9 +7,27 @@ img {
   height: 100px;
 }
 
+.container {
+  padding: 0 8%;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 25px;
+  
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+.item {
+  flex: 1;
 }
 
 /* do not edit this footer */
